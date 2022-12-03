@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+.container-xl{
+    padding: 0 !important;
+}
+
+/* Css Navbar */
+
+.fontNav{
+    font-family: 'Berkshire Swash', cursive;
+    background-color: #fff;
+}
+
+.sizeAncla, .sizeAncla1{
+    font-size: 1.2em !important;
+    margin-right: 0.5em;
+    color: #ff0066 !important;
+}
+
+.styleToogle{
+    border: 2px solid #ff0066 !important;
+}
+
+.sizeAncla1{
+    margin-left: 1em;
+}
+
+.sizeDropdown{
+    color: #0d41af !important;
+}
+
+.sizeDropdown:active{
+    color: #fff !important;
+}
+
+.botonBuscar{
+    background-color: #0d41af !important;
+    color: #fff !important;
+}
+
+.botonBuscar:hover{
+    background-color: #fff !important;
+    color: #0d41af !important;
+    border: 1px solid #0d41af !important;
+}
+
+/* Css Card */
+
+.altoCard{
+    margin-top: 4em !important;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.card{
+    padding: 0 !important;
+}
+
+.styleTituloCard{
+    color: #ff0066 !important;
+    font-size: 1.4em !important;
+}
+
+.styleBotonCard{
+    width: 100% !important;
+    background-color: #0d41af !important;
+}
+
+
+/* Media query */
+
+@media (max-width: 991px) {
+    .fontNav{
+        background-color: beige;
+    }
+
+    .navbar-nav .dropdown-menu {
+        background-color: beige;
+        border: 1px solid #ff0066;
+    }
+
+    .sizeDropdown{
+        color: #ff0066 !important;
+    }
+
+    .sizeAncla1{
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel, .carousel-inner, .altoImg{
+        height: 55vh !important;
+    }
+
+    .card img{
+        height: 50vh !important; 
+    }
+}
